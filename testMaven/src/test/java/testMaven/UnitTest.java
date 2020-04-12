@@ -19,7 +19,6 @@ import Data.Log;
 import pages.BasePage;
 
 
-
 public class UnitTest {
 	
 	WebDriver driver;
