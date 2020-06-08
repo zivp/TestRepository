@@ -43,7 +43,7 @@ public class UnitTest {
 		  //inter url and click all the links
 @Test
 public void Test2() throws Exception {
-	driver =BasePage.initChromeDriver("https://www.mako.co.il/");
+	driver =BasePage.initChromeDriver("https://www.hot.net.il/");
 	
 	List<WebElement> linksList = BasePage.clickableLinks(driver);
 	for (WebElement link : linksList) {
@@ -55,6 +55,18 @@ public void Test2() throws Exception {
 			System.out.println(e.getMessage());
 		}
 	}
+}
+
+@Test
+public void Test3() throws Exception {
+	
+	driver =BasePage.initChromeDriver("https://www.hot.net.il/");
+
+	
+	
+	
+	
+	
 }
 		  
 

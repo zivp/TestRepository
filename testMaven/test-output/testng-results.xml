@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="544804" started-at="2020-04-12T14:30:55Z" finished-at="2020-04-12T14:40:00Z">
+  <suite name="Default suite" duration-ms="12309" started-at="2020-06-08T18:40:17Z" finished-at="2020-06-08T18:40:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="544804" started-at="2020-04-12T14:30:55Z" finished-at="2020-04-12T14:40:00Z">
-      <class name="testMaven.UnitTest">
-        <test-method status="PASS" signature="Test2()[pri:0, instance:testMaven.UnitTest@765d7657]" name="Test2" duration-ms="544785" started-at="2020-04-12T17:30:55Z" finished-at="2020-04-12T17:40:00Z">
+    <test name="Default test" duration-ms="12309" started-at="2020-06-08T18:40:17Z" finished-at="2020-06-08T18:40:29Z">
+      <class name="testMaven.RobotClass">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testMaven.RobotClass@6771beb3]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2020-06-08T21:40:17Z" finished-at="2020-06-08T21:40:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-      </class> <!-- testMaven.UnitTest -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testMaven.RobotClass@6771beb3]" name="f" duration-ms="12279" started-at="2020-06-08T21:40:17Z" finished-at="2020-06-08T21:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testMaven.RobotClass@6771beb3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-06-08T21:40:29Z" finished-at="2020-06-08T21:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testMaven.RobotClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
